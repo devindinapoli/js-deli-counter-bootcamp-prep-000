@@ -1,5 +1,5 @@
 function currentLine(line) {
-  if (!line.length) {
+  if (line.length) {
     return "The line is currently empty."
   }
 
@@ -13,7 +13,7 @@ function currentLine(line) {
 };
 
 function nowServing(line) {
-  if (!line.length) {
+  if (line.length) {
     return "There is nobody waiting to be served!"
   }
 
